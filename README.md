@@ -43,6 +43,11 @@ cmake进行构建：
 版本说明：
 opencv4.1.0
 
+测试速度:
+	识别速度：FPS = 19.48 
+	检测速度：FPS = 1.989
+	检测+识别速度：FPS = 1.459
+
 补充：
 	
 	此次用到的yolov3模型文件，yolov3.weights,及ocr模型ocr_5530.weights，
