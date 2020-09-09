@@ -1,6 +1,7 @@
 介绍:
 
-	此demo的功能是用opencv的dnn模块，来运行yolov3的进行目标检测和进行OCR的，OCR模型采用的是改进版的crnn，CNN+FC。来对检测到的目标进行识别。
+	此demo的功能是用opencv的dnn模块，来运行yolov3的进行目标检测和进行OCR的，OCR模型采用的是改进版的crnn，CNN+FC。
+	来对检测到的目标进行识别。
 
 检测：
 
