@@ -20,8 +20,12 @@ add_executable (detect_objects src/demo.cpp src/dataStructures.h src/***.cpp src
 
 
 文件夹说明：
-3rdparty:存放的是第三方库 opencv4.1.0的库
-build：是已经cmake构建好的vs2015的project
+3rdparty:存放的是第三方库 opencv4.1.0的库,从下载链接中，下载后将库拷贝到该文件夹下
+
+build：是已经cmake构建好的vs2015的project，具体的cmake过程，见图片cmake截图.png 
+
+
+
 data： 
 	yolo文件夹：存放的是yolov3的cfg文件和weights文件，以及names文件
 	ocr文件夹：存放的是ocr模型的cfg、dict和weights文件
