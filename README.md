@@ -4,10 +4,12 @@
 来对检测到的目标进行识别。
 
 检测：
+
 检测的目标是***银行的票据。
 检测的目标共有4类，分别为主键、流水号、附件及附件标题。
 
 识别：
+
 对检测到的目标进行识别，其中需要识别的目标有主键、流水号和附件标题。
 此识别是对水平从左到有的输入有效。
 
@@ -20,6 +22,7 @@ add_executable (detect_objects src/demo.cpp src/dataStructures.h src/***.cpp src
 
 
 文件夹说明：
+
 3rdparty:存放的是第三方库 opencv4.1.0的库,从下载链接中，下载后将库拷贝到该文件夹下
 
 build：是已经cmake构建好的vs2015的project，具体的cmake过程，见图片cmake截图.png 
