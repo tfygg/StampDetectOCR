@@ -19,7 +19,7 @@ void ocr()
 	string ocrBasePath = "../data/ocr/";
 	string ocrDictFile = ocrBasePath + "ocr_dict_5530.txt";
 	string ocrModelConfiguration = ocrBasePath + "ocr_5530.cfg";
-	string ocrModelWeights = ocrBasePath + "ocr_5530_jinzhong.weights";
+	string ocrModelWeights = ocrBasePath + "ocr_5530.weights";
 
 	vector<string> ocr_classes;
 	ifstream ifs(ocrDictFile);
@@ -130,7 +130,7 @@ void ocr(vector<BoundingBox> &bBoxes, vector<cv::String> &detect_names)
 	string ocrBasePath = "../data/ocr/";
 	string ocrDictFile = ocrBasePath + "ocr_dict_5530.txt";
 	string ocrModelConfiguration = ocrBasePath + "ocr_5530.cfg";
-	string ocrModelWeights = ocrBasePath + "ocr_5530_jinzhong.weights";
+	string ocrModelWeights = ocrBasePath + "ocr_5530.weights";
 
 	vector<string> ocr_classes;
 	ifstream ifs(ocrDictFile);
@@ -243,9 +243,9 @@ void detect_ocr()
 {
 	cv::Mat img = cv::imread("../images/jz_test_000_098.jpg");
 	string yoloBasePath = "../data/yolo/";
-	string yoloClassesFile = yoloBasePath + "jinzhong.names";
-	string yoloModelConfiguration = yoloBasePath + "yolov3_jinzhong.cfg";
-	string yoloModelWeights = yoloBasePath + "yolov3_jinzhong.weights";
+	string yoloClassesFile = yoloBasePath + "yolo.names";
+	string yoloModelConfiguration = yoloBasePath + "yolov.cfg";
+	string yoloModelWeights = yoloBasePath + "yolov.weights";
 
 	vector<string> detect_classes;
 	ifstream ifs(yoloClassesFile.c_str());
