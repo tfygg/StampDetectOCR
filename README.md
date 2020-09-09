@@ -1,24 +1,20 @@
 介绍:
 
-此demo的功能是用opencv的dnn模块，来运行yolov3的进行目标检测和进行OCR的，OCR模型采用的是改进版的crnn，CNN+FC。
-来对检测到的目标进行识别。
+	此demo的功能是用opencv的dnn模块，来运行yolov3的进行目标检测和进行OCR的，OCR模型采用的是改进版的crnn，CNN+FC。来对检测到的目标进行识别。
 
 检测：
 
-检测的目标是***银行的票据。
-检测的目标共有4类，分别为主键、流水号、附件及附件标题。
+	检测的目标是***银行的票据。检测的目标共有4类，分别为主键、流水号、附件及附件标题。
 
 识别：
-
-对检测到的目标进行识别，其中需要识别的目标有主键、流水号和附件标题。
-此识别是对水平从左到有的输入有效。
+	对检测到的目标进行识别，其中需要识别的目标有主键、流水号和附件标题。此识别是对水平从左到有的输入有效。
 
 
 
 
-采用的是cmake进行构建。对于自己写的.cpp .h文件拷贝到src文件夹下，然后在CmakeLists.txt文件中的
-add_executable (detect_objects src/demo.cpp src/dataStructures.h src/***.cpp src/***.h) 后面依次添加，
-然后cmake构建就可以
+采用的是cmake进行构建。
+	对于自己写的.cpp .h文件拷贝到src文件夹下，然后在CmakeLists.txt文件中的add_executable (detect_objects src/demo.cpp src/dataStructures.h src/***.cpp src/***.h) 
+	后面依次添加，然后cmake构建就可以
 
 
 文件夹说明：
@@ -38,8 +34,7 @@ add_executable (detect_objects src/demo.cpp src/dataStructures.h src/***.cpp src
 
 
 注意：
-	在下载此文件后，直接运行build目录下的OpencvDarknet.sln会报错，原因是路劲错误，找不到相应文件，需要在本地重新cmake构建一下
-	参见cmake截图.png
+	在下载此文件后，直接运行build目录下的OpencvDarknet.sln会报错，原因是路劲错误，找不到相应文件，需要在本地重新cmake构建一下参见cmake截图.png
 	
 
 版本说明：
