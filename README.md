@@ -8,12 +8,11 @@
 	检测的目标是***银行的票据。检测的目标共有4类，分别为主键、流水号、附件及附件标题。
 
 识别：
+
 	对检测到的目标进行识别，其中需要识别的目标有主键、流水号和附件标题。此识别是对水平从左到有的输入有效。
+	
+cmake进行构建：
 
-
-
-
-采用的是cmake进行构建。
 	对于自己写的.cpp .h文件拷贝到src文件夹下，然后在CmakeLists.txt文件中的add_executable (detect_objects src/demo.cpp src/dataStructures.h src/***.cpp src/***.h) 
 	后面依次添加，然后cmake构建就可以
 
@@ -35,6 +34,7 @@
 
 
 注意：
+	
 	在下载此文件后，直接运行build目录下的OpencvDarknet.sln会报错，原因是路劲错误，找不到相应文件，需要在本地重新cmake构建一下参见cmake截图.png
 	
 
@@ -42,6 +42,7 @@
 opencv4.1.0
 
 补充：
+	
 	此次用到的yolov3模型文件，yolov3.weights,及ocr模型ocr_5530.weights，以及编译好的opencv4.1.0的库文件链接下载地址如下：
 
 
