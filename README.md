@@ -38,6 +38,15 @@ src:   存放的是源文件
 版本说明：
 opencv4.1.0
 
+补充：此次用到的yolov3模型文件，yolov3.weights,及ocr模型ocr_5530.weights，以及编译好的opencv4.1.0的库文件链接下载地址如下：
+
+opencv4.1.0的库文件下载链接：
+链接：https://pan.baidu.com/s/1b4IpmKwc6YQZ1jzRs64y6g  提取码：impz
+
+yolov3及ocr的模型文件下载链接：
+链接：https://pan.baidu.com/s/169cpsBcHAKDog1GRtEKHqg 
+提取码：ujyd
+
 
 Author:BigPanda
 E-mail:wangxiong@founder.com
