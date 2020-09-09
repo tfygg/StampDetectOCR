@@ -23,18 +23,18 @@ add_executable (detect_objects src/demo.cpp src/dataStructures.h src/***.cpp src
 
 文件夹说明：
 
-3rdparty:存放的是第三方库 opencv4.1.0的库,从下载链接中，下载后将库拷贝到该文件夹下
+	3rdparty:存放的是第三方库 opencv4.1.0的库,从下载链接中，下载后将库拷贝到该文件夹下
 
-build：是已经cmake构建好的vs2015的project，具体的cmake过程，见图片cmake截图.png 
+	build：是已经cmake构建好的vs2015的project，具体的cmake过程，见图片cmake截图.png 
 
 
 
-data： 
-	yolo文件夹：存放的是yolov3的cfg文件和weights文件，以及names文件
-	ocr文件夹：存放的是ocr模型的cfg、dict和weights文件
-	ocr的模型文件是在chineseOCR的ocr_dense.pth(字典大小是5530)的基础上，用实际数据进行微调得到的
-test： 存放的是几张测试图片
-src:   存放的是源文件
+	data： 
+		yolo文件夹：存放的是yolov3的cfg文件和weights文件，以及names文件
+		ocr文件夹：存放的是ocr模型的cfg、dict和weights文件
+		ocr的模型文件是在chineseOCR的ocr_dense.pth(字典大小是5530)的基础上，用实际数据进行微调得到的
+	test： 存放的是几张测试图片
+	src:   存放的是源文件
 
 
 注意：
@@ -45,7 +45,9 @@ src:   存放的是源文件
 版本说明：
 opencv4.1.0
 
-补充：此次用到的yolov3模型文件，yolov3.weights,及ocr模型ocr_5530.weights，以及编译好的opencv4.1.0的库文件链接下载地址如下：
+补充：
+	此次用到的yolov3模型文件，yolov3.weights,及ocr模型ocr_5530.weights，以及编译好的opencv4.1.0的库文件链接下载地址如下：
+
 
 opencv4.1.0的库文件下载链接：
 链接：https://pan.baidu.com/s/1b4IpmKwc6YQZ1jzRs64y6g  提取码：impz
