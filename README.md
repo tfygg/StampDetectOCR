@@ -60,5 +60,5 @@ yolov3及ocr的模型文件下载链接：
 Author:BigPanda
 E-mail:wangxiong@founder.com
 State Key Laboratory of Digital Publishing Technology
-Date:2020-5-8 
+Date:2020-9-9
 
