@@ -11,15 +11,16 @@
 
 	对检测到的目标进行识别，其中需要识别的目标有主键、流水号和附件标题。此识别是对水平从左到有的输入有效。
 
-模型训练说明：
-	 yolov3模型是在darknet下训练的得到weights文件。
-	 ocr模型是在chineseOCR提供的脚本及模型ocr_dense.pth基础上，增加自己的数据得到的。
-	 ocr用的是pytorch进行训练的，训练得到的pth文件，需要经过pytorch转keras，然后keras转darknet，两个转换过程，
-	 在原chineseOCR中提供了参考的脚本。本人实在这些脚本基础上，修改得到的。具体的训练代码及转换脚本，我整理好后
-	 会在另一个repo中上传。
-	 我这里的ocr.cfg文件，与原始chineseOCR的ocr.cfg文件存在一些小的不同，我这里用到了batch_norm。
+训练说明：
+
+	yolov3模型是在darknet下训练的得到weights文件。
+	ocr模型是在chineseOCR提供的脚本及模型ocr_dense.pth基础上，增加自己的数据得到的。
+	ocr用的是pytorch进行训练的，训练得到的pth文件，需要经过pytorch转keras，然后keras转darknet，两个转换过程，
+	在原chineseOCR中提供了参考的脚本。本人实在这些脚本基础上，修改得到的。具体的训练代码及转换脚本，我整理好后
+	会在另一个repo中上传。
+	我这里的ocr.cfg文件，与原始chineseOCR的ocr.cfg文件存在一些小的不同，我这里用到了batch_norm。
 	 
-	 chineseOCR的链接地址：https://github.com/chineseocr/chineseocr.git
+	chineseOCR的链接地址：https://github.com/chineseocr/chineseocr.git
 	 
 	 
 	
@@ -56,6 +57,7 @@ cmake进行构建：
 opencv4.1.0
 
 测试速度:
+	
 	识别速度：FPS = 19.48 
 	检测速度：FPS = 1.989
 	检测+识别速度：FPS = 1.459
