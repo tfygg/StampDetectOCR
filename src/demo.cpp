@@ -230,7 +230,8 @@ void ocr(vector<BoundingBox> &bBoxes, vector<cv::String> &detect_names)
 		{
 			if ((ocr_class_ids[i] < ocr_classes.size() - 1) && (!((i > 0) && (ocr_class_ids[i - 1] == ocr_class_ids[i]))))
 			{
-				ocr_predict += ocr_classes[ocr_class_ids[i]-1];
+				if (ocr_class_ids[i] != 0)
+					ocr_predict += ocr_classes[ocr_class_ids[i]-1];
 			}
 		}
 	
