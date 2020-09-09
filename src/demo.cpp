@@ -203,7 +203,7 @@ void ocr(vector<BoundingBox> &bBoxes, vector<cv::String> &detect_names)
 		//int cols = ocr_classes.size();
 		//int row;
 		int cols = out.size[3];  // 20
-		int rows = out.size[1];  // 11316
+		int rows = out.size[1];  // 5530 字典大小
 
 		cv::Mat out_reshape(cols, rows, CV_32FC1);
 		float* data = (float*)out.data;
