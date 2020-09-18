@@ -82,7 +82,10 @@ yolov3及ocr的模型文件下载链接：
 	  另外，也感谢实验室提供的资源，也感谢颜姐给予的帮助和指导！
 
 Author:BigPanda
-E-mail:wangxiong@founder.com
+
+E-mail:wang.xiong@founder.com
+
 State Key Laboratory of Digital Publishing Technology
+
 Date:2020-9-9
 
